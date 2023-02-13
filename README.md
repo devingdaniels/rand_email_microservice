@@ -22,5 +22,6 @@ Receiving:
 
 After requesting, since it is a network call, just await the response using C++ syntax, and use the resulting random email string as you please. It is not a JSON object, it is strictly a single string, so you don't need to perform any methods on the received data to access the email.
 
-UML Sequence Diagram:
-![Model]('uml_diagram.svg')
+UML Diagram:
+
+![My Image](uml_diagram.svg)
