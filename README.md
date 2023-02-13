@@ -7,16 +7,7 @@ The server.js file should not be changed except for the port number if you want 
 
 The index.js file is an example of how to hit the server.js endpoint using a HTTP GET request. Since you're writing your code with C++, you are going to want to write your own async / await function that will use the C++ equivalent to fetch('path') akin to the JS method below:
 
-async function fetchEmail() {
-try {
-const response = await fetch("http://localhost:3000/api");
-const data = await response.json();
-return data;
-} catch (error) {
-console.log(error);
-return new Error("Error", error);
-}
-}
+![My Image](example_call.png)
 
 Receiving:
 
